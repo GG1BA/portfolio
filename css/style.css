@@ -3,3 +3,78 @@
     padding: 0;
     text-decoration: none;
 }
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 50px 0;
+}
+
+h1{font-size: 48px}
+h2{font-size: 36px}
+h3{font-size: 24px}
+
+/* Hero */
+.hero-inner{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.hero-inner img{width: 90%}
+.hero-inner p{
+    font-size: 24px;
+    max-width: 90%;
+}
+
+/* Projects */
+.projects-inner{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+.project{
+    border: 1px solid #2e2e2e;
+    width: 30%;
+    padding: 15px;
+}
+
+/* Skills */
+.skills-inner{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+.skill-block{
+    width: 30%;
+}
+.skill-block h3{
+    margin-bottom: 5px;
+}
+.skill-block li{
+    font-weight: bold;
+}
+
+/* About */
+.about-inner{
+    display: flex;
+    align-items: center;
+}
+.about-inner img{
+    width: 90%;
+}
+.about-inner p{
+    padding: 15px 0 0 0;
+    font-size: 24px;
+    max-width: 90%;
+}
