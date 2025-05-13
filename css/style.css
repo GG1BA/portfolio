@@ -31,21 +31,25 @@ h3{font-size: 24px}
 }
 .hero-inner img{width: 90%}
 .hero-inner p{
+    margin-top: 5px;
+    line-height: 29px;
     font-size: 24px;
     max-width: 90%;
 }
 
 /* Projects */
 .projects-inner{
-    padding: 50px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #000;
+    flex-wrap: wrap;
 }
 .project{
     border: 1px solid #2e2e2e;
     width: 30%;
     padding: 15px;
+    margin: 25px 0;
 }
 
 /* Skills */
@@ -62,6 +66,32 @@ h3{font-size: 24px}
     margin-bottom: 5px;
 }
 .skill-block li{
+    font-weight: bold;
+}
+
+/* WORK-SPACE */
+
+/* #93e200 #dee200 */
+.ws-title{
+    margin: 20px;
+    background-color: #dee200;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.work-space{
+    margin-top: 50px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3), 1px 1px 5px rgba(255, 255, 255, 1);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.example{
+    padding: 30px;
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    margin: 5px;
     font-weight: bold;
 }
 
