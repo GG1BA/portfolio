@@ -93,6 +93,13 @@ h3{font-size: 24px}
     border-radius: 5px;
     margin: 5px;
     font-weight: bold;
+}.example:first-child::after{
+    content: "Этот псевдоэлемент создан благодаря использованию псевдокласса";
+    max-width: 50%;
+    display: block;
+    height: 50px;
+    width: 80%;
+    background-color: #a0a0a0;
 }
 
 /* About */
