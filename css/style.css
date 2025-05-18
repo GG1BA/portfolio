@@ -96,16 +96,6 @@ h3{font-size: 24px}
     border-radius: 5px;
     margin: 5px;
     font-weight: bold;
-}.example:first-child::after{
-    content: "Этот псевдоэлемент создан благодаря использованию псевдокласса";
-    max-width: 50%;
-    display: block;
-    padding: 15px;
-    width: 80%;
-    background-color: #a0a0a0;
-    color: #2e2e2e;
-    border-radius: 15px;
-    margin: 0 auto;
 }
 
 /* About */
