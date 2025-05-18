@@ -87,7 +87,7 @@ h3{font-size: 24px}
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3), 1px 1px 5px rgb(34, 34, 34);
     padding: 15px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: auto auto auto;
 }
 .example{
@@ -96,6 +96,20 @@ h3{font-size: 24px}
     border-radius: 5px;
     margin: 5px;
     font-weight: bold;
+    background-color: transparent;
+    color: #dfdfdf;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+}.example:hover{
+    background-color: #dfdfdf;
+    color: #181818;
+}
+.stealth{
+    display: none;
+}
+.beauty{
+    display: block;
 }
 
 /* About */
