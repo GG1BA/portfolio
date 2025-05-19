@@ -10,10 +10,6 @@ function displayOff() {
     stealth.className = 'example stealth';
 }
 
-function animationTimeOut() {
-    exampleTimeOutID = window.setTimeout(displayOff, 1000);
-}
-
 // for (let btn of btns) {
 //     btn.addEventListener('click', function () {
 //         btn.textContent = Number(btn.textContent) + 1;
@@ -41,7 +37,7 @@ displayer.addEventListener('click', function () {
         displayer.textContent = "Скрыть";
     }else{
         stealth.className = 'example beauty animate__animated animate__zoomOutRight';
-        animationTimeOut();
+        setTimeout(displayOff, 1000);
         displayer.textContent = "Отобразить";
     };
 });
