@@ -32,13 +32,13 @@ third.addEventListener('click', function () {
 });
 
 displayer.addEventListener('click', function () {
-    if (displayer.textContent == "Отобразить") {
+    if (displayer.textContent == "+") {
         stealth.className = 'example beauty animate__animated animate__zoomInRight';
-        displayer.textContent = "Скрыть";
+        displayer.textContent = "-";
     }else{
         stealth.className = 'example beauty animate__animated animate__zoomOutRight';
         setTimeout(displayOff, 1000);
-        displayer.textContent = "Отобразить";
+        displayer.textContent = "+";
     };
 });
 
