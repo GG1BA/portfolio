@@ -10,12 +10,6 @@ function displayOff() {
     stealth.className = 'example stealth';
 }
 
-// for (let btn of btns) {
-//     btn.addEventListener('click', function () {
-//         btn.textContent = Number(btn.textContent) + 1;
-//     });
-// };
-
 first.addEventListener('click', function () {
     first.textContent = Number(first.textContent) + 1;
 });

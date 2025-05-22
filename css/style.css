@@ -55,17 +55,6 @@ h3{font-size: 24px}
     margin: 25px 0;
 }
 
-details {
-    margin-top: 10px;
-}details[open]{
-    transition: 0.3s;
-}
-summary{
-    border: 1px solid #2e2e2e;
-    cursor: pointer;
-    padding: 2px;
-}
-
 /* Skills */
 .skills-inner{
     padding: 50px 0;
